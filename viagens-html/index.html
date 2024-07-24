@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semântica</title>
+</head>
+
+<body>
+    <!--  A semântica no HTML se refere ao uso de elementos que possuem significado específico, tornando o código mais legível tanto para os desenvolvedores quanto para os navegadores e motores de busca. -->
+    <!-- cabeçalho da pagina -->
+    <header><!--Representa o cabeçalho da página-->
+        <nav>
+            <!-- nav tag para menu de navegação -->
+            <ul>
+                <!-- ul é um container de lista nao ordenada -->
+                <!-- tag li é tag de lista -->
+                <!-- tag a - link, dentro do href colocamos o link -->
+                <li>
+                    <a href="https://www.tripadvisor.com.br/Attractions-g303461-Activities-c61-t52-Porto_de_Galinhas_Ipojuca_State_of_Pernambuco.html"
+                        target="_blank">Faça sua reserva</a>
+                </li>
+                <li><a href="">Redes Sociais</a></li>
+                <li><a href="">Saiba mais</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main> <!-- conteudo principal do site -->
+        <section> <!--Define uma seção temática dentro de uma página.-->
+            <h1>Viagens Vai na Web</h1>
+            <!-- é usada para incorporar outro documento HTML dentro do seu documento HTML -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/JJ3VzRiKAq4?si=ikPbiXFUEeKvHmer"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <!-- seção de tipos de viagens -->
+        <section>
+            <!-- A tag div deve ser usada com sabedora, ela é usada para divisoes, pois nao tem valor semantico -->
+            <div>
+                <h2>Viagens Internacionais</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam distinctio, repellat reiciendis
+                    dolores accusamus quibusdam deleniti nisi nihil officia. Facere, asperiores dolorum facilis
+                    voluptatum nihil odio molestias praesentium perferendis pariatur animi ipsa reiciendis aspernatur
+                    cum minima laborum qui assumenda odit, ea amet vitae illo. Nesciunt ratione possimus modi quasi
+                    delectus et, porro illum itaque accusantium quibusdam dolor labore, tenetur nihil molestiae harum
+                    mollitia totam est voluptates numquam sapiente inventore cumque eaque. Reprehenderit obcaecati
+                    exercitationem magni iste aliquid debitis. Neque qui quas eveniet tenetur deserunt sapiente sunt
+                    amet cum labore doloribus, enim ab dolorum ex molestiae. Cum, officiis quaerat. Quae, possimus.</p>
+            </div>
+            <div>
+                <h2>Viagens Nacionais</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil iure ex dolorem assumenda neque esse,
+                    fugiat excepturi, aperiam praesentium repellendus sint cumque unde delectus est libero modi sed.
+                    Optio, quod.</p>
+            </div>
+        </section>
+        <!-- seção do form -->
+        <section>
+            <h2>Se inscreva para receber novidades</h2>
+            <!-- fieldset é tag usada para agrupar para agrupar um form aplicando um estilo -->
+            <fieldset>
+                <legend>Formulário de Cadastro</legend>
+                <!-- form tag de formulario -->
+                <form action="">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" required>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email">
+                    <input type="submit" value="">
+                </form>
+
+
+            </fieldset>
+        </section>
+    </main>
+    <!-- footer parte final "rodapé do site" -->
+    <footer></footer>
+</body>
+
+</html>
