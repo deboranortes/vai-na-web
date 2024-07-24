@@ -1,5 +1,3 @@
-# Vai na Web
-
 ![Vai na Web Logo](./logo-vnw.svg)
 
 Uma plataforma de formação de talentos digitais
