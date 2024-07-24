@@ -38,4 +38,4 @@ Para visualizar o projeto, basta abrir o arquivo `index.html` em um navegador we
 
 ---
 
-Este projeto faz parte da plataforma [Vai na Web](https://vainaweb.com.br/), que oferece formação de talentos digitais em programação avançada e habilidades socioemocionais.
+Este projeto faz parte da plataforma [![Vai na Web](https://img.shields.io/badge/Vai%20na%20Web-Formação%20Digital-yellow?style=flat)](https://vainaweb.com.br/)
