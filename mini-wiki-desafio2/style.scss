@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+// Definição das variáveis
+$cor-primaria: #FF0266;
+$cor-secundaria: #ffffffee;
+$cor-terciaria: #121212;
+$fonte-principal: 'Exo 2';
+
+// Estilos Globais
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    font-family: $fonte-principal;
+    background-color: $cor-terciaria;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+img {
+    box-sizing: border-box;
+    border: 150px;
+    width: 295px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 60px 1083px 20px 120px;
+    box-shadow:
+        0px 0px 10px rgba(255, 182, 193, 0.4),
+        0px 0px 15px rgba(255, 182, 193, 0.3),
+        0px 0px 20px rgba(255, 182, 193, 0.2);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+
+    &:hover {
+        transform: rotate(360deg);
+        box-shadow:
+            0px 0px 15px rgba(255, 182, 193, 0.6),
+            0px 0px 20px rgba(255, 182, 193, 0.5),
+            0px 0px 25px rgba(255, 182, 193, 0.4);
+    }
+}
+
+h1 {
+    background: linear-gradient(to right, $cor-primaria, #FF6EC7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    width: 388px;
+    height: 50px;
+    flex-shrink: 0;
+    font-family: $fonte-principal;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px;
+    margin-left: 119px;
+    margin-top: 39px;
+    margin-bottom: 20px;
+}
+
+.about {
+    line-height: 29px;
+    width: 1216px;
+    height: 66px;
+    flex-shrink: 0;
+    color: $cor-secundaria;
+    font-family: $fonte-principal;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 250;
+    margin-left: 119px;
+    margin-top: 8px;
+    margin-bottom: 39px;
+}
+
+.city-explorer {
+    line-height: 29px;
+    width: 1216px;
+    height: 66px;
+    flex-shrink: 0;
+    font-family: $fonte-principal;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 250;
+    margin-left: 119px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+    a {
+        color: $cor-secundaria;
+
+        &:hover {
+            color: rgba(255, 182, 193, 0.8);
+            text-decoration: underline;
+        }
+    }
+}
+
+.film-title,
+.music-title {
+    width: 388px;
+    height: 50px;
+    flex-shrink: 0;
+    color: $cor-primaria;
+    background: linear-gradient(to right, $cor-primaria, #FF6EC7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: $fonte-principal;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 44px;
+    margin-left: 119px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+}
+
+ol,
+ul {
+    font-size: 24px;
+    line-height: 29px;
+    width: 1216px;
+    flex-shrink: 0;
+    color: $cor-secundaria;
+    font-family: $fonte-principal;
+    font-style: normal;
+    font-weight: 250;
+    margin-left: 143px;
+    margin-top: 8px;
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color: $cor-terciaria;
+    border-top: 1px solid rgba(255, 182, 193, 0.3);
+    padding: 20px 588px;
+    margin-top: 50px;
+}
+
+.footer-one,
+.footer-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $cor-secundaria;
+    font-size: 14px;
+    font-weight: 250;
+    line-height: 17px;
+    width: 264px;
+    height: 21px;
+    flex-shrink: 0;
+    font-style: normal;
+}
