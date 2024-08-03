@@ -12,6 +12,10 @@ Este projeto é um desafio do programa **Vai na Web** para criar uma mini wiki p
 - **Filmes Favoritos:** Três dos meus filmes favoritos.
 - **Músicas Favoritas:** Três das minhas músicas favoritas.
 
+## 🔗 Link do Projeto
+
+[![Link do Projeto](https://img.shields.io/badge/Link_do_Projeto-ff0266?style=for-the-badge&logo=link&logoColor=white)](https://vai-na-web-rho.vercel.app/)
+
 ## 🚀 Tecnologias Utilizadas
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
