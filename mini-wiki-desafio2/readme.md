@@ -14,8 +14,8 @@ Este projeto é um desafio do programa **Vai na Web** para criar uma mini wiki p
 
 ## 🚀 Tecnologias Utilizadas
 
-- **HTML** ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-- **SASS** ![SASS](https://img.shields.io/badge/SASS-CC6699?style=flat-square&logo=sass&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![SASS](https://img.shields.io/badge/SASS-CC6699?style=flat-square&logo=sass&logoColor=white)
 
 ## 🎨 Estilização
 
