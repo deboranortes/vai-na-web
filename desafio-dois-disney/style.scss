@@ -1,0 +1,123 @@
+// Importações de fontes
+@import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+
+// Variáveis SCSS
+// Cores
+$color-primary: #FFFFFF;
+$color-secondary: #1E1E1E;
+
+// Fontes
+$font-primary: 'Lily Script One', cursive;
+$font-secondary: 'Actor', sans-serif;
+
+// Mixin para Flexbox
+@mixin flexbox {
+    display: flex;
+    justify-content: center;
+}
+
+// Estilos Globais
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    @include flexbox();
+    background-color: $color-primary;
+    flex-direction: column;
+}
+
+header {
+    background-color: $color-secondary;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    ul {
+        @include flexbox();
+        list-style: none;
+        gap: 13vw;
+
+        li {
+            a {
+                text-decoration: none;
+                color: $color-primary;
+                font-family: $font-primary;
+                font-weight: 400;
+                font-size: 1.8rem;
+            }
+        }
+    }
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    margin: 3rem 0 6rem;
+}
+
+section {
+    @include flexbox();
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 100%;
+
+    img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+}
+
+footer {
+    @include flexbox();
+    background-color: $color-secondary;
+    font-family: $font-secondary;
+    color: $color-primary;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    padding: 2.5rem;
+    text-align: center;
+    align-items: center;
+
+    p {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin-right: 1.5rem;
+    }
+
+    .social-media {
+        display: flex;
+        gap: 0.8rem;
+        list-style: none;
+
+        li {
+            a {
+                img {
+                    width: 2.5rem;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+
+// Media Queries
+@media (max-width: 768px) {
+    section {
+        flex-direction: column; // Empilha as imagens verticalmente em dispositivos móveis
+        align-items: center; // Centraliza as imagens
+    }
+}

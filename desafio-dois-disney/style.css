@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Actor&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #FFFFFF;
+  flex-direction: column;
+}
+
+header {
+  background-color: #1E1E1E;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 13vw;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: "Lily Script One", cursive;
+  font-weight: 400;
+  font-size: 1.8rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+  margin: 3rem 0 6rem;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  width: 100%;
+}
+section img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #1E1E1E;
+  font-family: "Actor", sans-serif;
+  color: #FFFFFF;
+  font-size: 0.9375rem;
+  font-weight: 400;
+  padding: 2.5rem;
+  text-align: center;
+  align-items: center;
+}
+footer p {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-right: 1.5rem;
+}
+footer .social-media {
+  display: flex;
+  gap: 0.8rem;
+  list-style: none;
+}
+footer .social-media li a img {
+  width: 2.5rem;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  section {
+    flex-direction: column;
+    align-items: center;
+  }
+}/*# sourceMappingURL=style.css.map */
