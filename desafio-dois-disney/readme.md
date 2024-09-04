@@ -23,18 +23,18 @@ O layout se adapta a diferentes dispositivos, garantindo boa usabilidade tanto e
 
 ## GIF de Demonstração
 
-![Disney GIF](link-para-o-disney.gif)
+![Disney GIF](disney.gif)
 
 ## Deploy
 
 O projeto está disponível para visualização ao vivo. Acesse o link abaixo para ver a versão em produção:
 
-[Link para o deploy](seu-link-aqui)
+[![Acesse o Projeto](https://img.shields.io/badge/Acesse%20o%20Projeto-Link-blue?style=for-the-badge)](https://disney-rosy-nine.vercel.app/)
 
 
 ## Como Executar
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/disney-web.git
+   git clone https://github.com/deboranortes/desafio-dois-disney.git
 2. Navegue até o diretório do projeto e abra o `index.html` em seu navegador.
