@@ -29,7 +29,7 @@ O layout se adapta a diferentes dispositivos, garantindo boa usabilidade tanto e
 
 O projeto está disponível para visualização ao vivo. Acesse o link abaixo para ver a versão em produção:
 
-[![Acesse o Projeto](https://img.shields.io/badge/Acesse%20o%20Projeto-Link-blue?style=for-the-badge)](https://disney-rosy-nine.vercel.app/)
+[![Acesse o Projeto](https://img.shields.io/badge/Acesse%20o%20Projeto-Link-blue?style=for-the-badge)](https://desafio2-disney.vercel.app/)
 
 
 ## Como Executar
