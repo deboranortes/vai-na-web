@@ -1,23 +1,19 @@
-// Importações de fontes
 @import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
 
-// Variáveis SCSS
-// Cores
+
 $color-primary: #FFFFFF;
 $color-secondary: #1E1E1E;
 
-// Fontes
 $font-primary: 'Lily Script One', cursive;
 $font-secondary: 'Actor', sans-serif;
 
-// Mixin para Flexbox
+
 @mixin flexbox {
     display: flex;
     justify-content: center;
 }
 
-// Estilos Globais
 * {
     padding: 0;
     margin: 0;
@@ -33,7 +29,7 @@ body {
 header {
     background-color: $color-secondary;
     text-align: center;
-    padding: 2rem 0;
+    padding: 1.8rem 0;
 }
 
 .banner {
@@ -53,7 +49,7 @@ nav {
                 color: $color-primary;
                 font-family: $font-primary;
                 font-weight: 400;
-                font-size: 1.8rem;
+                font-size: 1.6rem;
             }
         }
     }
@@ -87,7 +83,7 @@ footer {
     color: $color-primary;
     font-size: 0.9375rem;
     font-weight: 400;
-    padding: 2.5rem;
+    padding: 1.6rem;
     text-align: center;
     align-items: center;
 
@@ -114,10 +110,31 @@ footer {
     }
 }
 
-// Media Queries
 @media (max-width: 768px) {
     section {
-        flex-direction: column; // Empilha as imagens verticalmente em dispositivos móveis
-        align-items: center; // Centraliza as imagens
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+
+        p {
+            margin-left: 1rem;
+        }
+    }
+}
+
+@media (max-width: 448px) and (max-height: 448px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer p {
+        margin-left: 1.4rem;
     }
 }
