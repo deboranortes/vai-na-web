@@ -15,14 +15,14 @@
 ## Funcionalidades
 
 
-### HTML
+![HTML Icon](https://img.icons8.com/color/48/000000/html-5.png)
 No HTML, foram utilizadas **tags semânticas** garantindo que o conteúdo seja acessível e compreensível para todos os usuários, incluindo aqueles que utilizam leitores de tela.
 - **Header Navegável**: Um cabeçalho com links para diferentes categorias de produtos.
 - **Destaque de Produto**: Uma seção dedicada ao novo produto **Elseve Glycolic Gloss**, com imagem e descrição.
 - **Produtos Favoritos**: Galeria que exibe os produtos mais adorados pelos consumidores da L'Oréal Paris.
 
 
-### SCSS
+![SCSS Icon](https://img.icons8.com/color/48/000000/sass.png)
 No SCSS, o **aninhamento das tags** foi empregado para manter o código organizado e intuitivo. O uso de **variáveis** permitiu uma fácil manutenção das cores e fontes, enquanto os **mixins** ajudaram a reutilizar estilos e promover a consistência. As **media queries aninhadas** foram aplicadas para garantir que o design responsivo se adaptasse eficientemente a diferentes tamanhos de tela, proporcionando uma excelente experiência de usuário em dispositivos móveis e desktops.
 
 ## Tecnologias
