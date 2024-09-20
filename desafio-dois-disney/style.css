@@ -31,6 +31,7 @@ nav ul {
   list-style: none;
   gap: 13vw;
 }
+
 nav ul li a {
   text-decoration: none;
   color: #FFFFFF;
@@ -54,6 +55,7 @@ section {
   gap: 2rem;
   width: 100%;
 }
+
 section img {
   width: 100%;
   max-width: 300px;
@@ -72,17 +74,20 @@ footer {
   text-align: center;
   align-items: center;
 }
+
 footer p {
   display: flex;
   align-items: center;
   text-align: center;
   margin-right: 1.5rem;
 }
+
 footer .social-media {
   display: flex;
   gap: 0.8rem;
   list-style: none;
 }
+
 footer .social-media li a img {
   width: 2.5rem;
   height: auto;

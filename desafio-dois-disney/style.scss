@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
 
-
 $color-primary: #FFFFFF;
 $color-secondary: #1E1E1E;
 
 $font-primary: 'Lily Script One', cursive;
 $font-secondary: 'Actor', sans-serif;
-
 
 @mixin flexbox {
     display: flex;
@@ -114,6 +112,28 @@ footer {
     section {
         flex-direction: column;
         align-items: center;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+
+        p {
+            margin-left: 1rem;
+        }
+    }
+}
+
+@media (max-width: 448px) and (max-height: 448px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer p {
+        margin-left: 1.4rem;
     }
 
     footer {
