@@ -1,7 +1,7 @@
 # Desafio do Vai na Web
 
 📌 Super desafio módulo 1 💻  
- Desafio final do módulo hmtl, css e scss! A missão é desenvolver um site que seja fiel ao design do Figma.
+Desafio final do módulo HTML, CSS e SCSS! A missão é desenvolver um site que seja fiel ao design do Figma.
 
 🎯 **Especificações do desafio do Projeto:**
 
@@ -14,13 +14,12 @@
 
 ## Funcionalidades
 
-
 ![HTML Icon](https://img.icons8.com/color/48/000000/html-5.png)
 No HTML, foram utilizadas **tags semânticas** garantindo que o conteúdo seja acessível e compreensível para todos os usuários, incluindo aqueles que utilizam leitores de tela.
+
 - **Header Navegável**: Um cabeçalho com links para diferentes categorias de produtos.
 - **Destaque de Produto**: Uma seção dedicada ao novo produto **Elseve Glycolic Gloss**, com imagem e descrição.
 - **Produtos Favoritos**: Galeria que exibe os produtos mais adorados pelos consumidores da L'Oréal Paris.
-
 
 ![SCSS Icon](https://img.icons8.com/color/48/000000/sass.png)
 No SCSS, o **aninhamento das tags** foi empregado para manter o código organizado e intuitivo. O uso de **variáveis** permitiu uma fácil manutenção das cores e fontes, enquanto os **mixins** ajudaram a reutilizar estilos e promover a consistência. As **media queries aninhadas** foram aplicadas para garantir que o design responsivo se adaptasse eficientemente a diferentes tamanhos de tela, proporcionando uma excelente experiência de usuário em dispositivos móveis e desktops.
@@ -36,9 +35,6 @@ No SCSS, o **aninhamento das tags** foi empregado para manter o código organiza
 
 Acesse Aqui: [![Figma](https://img.shields.io/badge/Figma-E07B67?style=flat-square&logo=figma&logoColor=white)](https://www.figma.com/design/Jl39e6uWlBzPUKyr6V7fBx/L'OR%C3%89AL-HTML--SASS---RESPONSIVO)
 
- 
-
-
 ## GIF da Página
 
 ![GIF da Página](loreal.gif)
@@ -47,6 +43,17 @@ Acesse Aqui: [![Figma](https://img.shields.io/badge/Figma-E07B67?style=flat-squa
 
 [**Clique aqui para acessar o projeto**](https://vai-na-web-jf1g.vercel.app/)
 
----
+## 🚀 Como executar o SCSS
 
-Agradecimentos especiais à professora **Carol**, cujo apoio e orientação foram fundamentais para chegar até aqui. Sem ela, esse projeto não teria sido possível!
+1. **Instalar dependências**: Certifique-se de ter o Node.js instalado em sua máquina. Em seguida, instale o SASS globalmente ou como dependência do projeto:
+   ```bash
+   npm install -g sass
+2. **Compilar SCSS para CSS: Para compilar o SCSS para CSS, rode o seguinte comando:
+
+   ```bash
+   sass --watch src/scss:src/css
+
+Isso irá observar o diretório scss e compilar os arquivos SCSS no diretório css automaticamente sempre que houver alterações.
+
+---
+Agradecimentos especiais à professora [![Carol](https://img.shields.io/badge/Carol-FF1493?style=flat-square&logo=github&logoColor=white)](https://github.com/mariaccarolina), cujo apoio e orientação foram fundamentais para chegar até aqui. Sem ela, esse projeto não teria sido possível!
