@@ -10,6 +10,7 @@ Com o objetivo de diminuir de forma inteligente a desigualdade social, qualifica
 
 ![HTML5](https://img.icons8.com/color/48/000000/html-5.png)
 ![CSS3](https://img.icons8.com/color/48/000000/css3.png)
+![SCSS Icon](https://img.icons8.com/color/48/000000/sass.png)
 ![JavaScript](https://img.icons8.com/color/48/000000/javascript.png)
 ![React](https://img.icons8.com/color/48/000000/react-native.png)
 ![Vue.js](https://img.icons8.com/color/48/000000/vue-js.png)
