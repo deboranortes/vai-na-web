@@ -43,17 +43,21 @@ Acesse Aqui: [![Figma](https://img.shields.io/badge/Figma-E07B67?style=flat-squa
 
 [**Clique aqui para acessar o projeto**](https://vai-na-web-jf1g.vercel.app/)
 
-## 🚀 Como executar o SCSS
+## 🚀 Configuração do Projeto
 
-1. **Instalar dependências**: Certifique-se de ter o Node.js instalado em sua máquina. Em seguida, instale o SASS globalmente ou como dependência do projeto:
-   ```bash
-   npm install -g sass
-2. **Compilar SCSS para CSS: Para compilar o SCSS para CSS, rode o seguinte comando:
+### Instalar Dependências
 
-   ```bash
-   sass --watch src/scss:src/css
+1. **Instalar a Extensão Live Sass Compiler**:
+   - No Visual Studio Code, vá para a aba de extensões (ícone de quadrado no lado esquerdo).
+   - Procure por "Live Sass Compiler" e instale a extensão.
 
-Isso irá observar o diretório scss e compilar os arquivos SCSS no diretório css automaticamente sempre que houver alterações.
+### Compilar SCSS para CSS
+
+1. **Usar o Live Sass Compiler**:
+   - Abra um arquivo SCSS no seu projeto.
+   - Clique no botão "Watch Sass" na barra de status do VS Code para iniciar a compilação automática dos arquivos SCSS para CSS.
+
+Isso irá observar o diretório SCSS e compilar os arquivos SCSS no diretório CSS automaticamente sempre que houver alterações.
 
 ---
 Agradecimentos especiais à professora [![Carol](https://img.shields.io/badge/Carol-FF1493?style=flat-square&logo=github&logoColor=white)](https://github.com/mariaccarolina), cujo apoio e orientação foram fundamentais para chegar até aqui. Sem ela, esse projeto não teria sido possível!
