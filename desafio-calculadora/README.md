@@ -61,7 +61,7 @@ Acesse a aplicação em produção: [![Deploy](https://img.shields.io/badge/Depl
    npm run dev
 ## Como Usar
 
-1. Abra o navegador e acesse [http://localhost:3000](http://localhost:3000).
+1. Abra navegador e acesse http://localhost:3000.
 2. Utilize os campos de input para inserir os números desejados.
 3. Clique nos botões de operação (+, -, *, /) para realizar o cálculo.
 4. O resultado será exibido abaixo dos botões.
