@@ -41,11 +41,11 @@ Acesse Aqui: [![Figma](https://img.shields.io/badge/Figma-E07B67?style=flat-squa
 
 ## GIF da Página
 
-![GIF da Página](URL_DO_GIF)
+![GIF da Página](loreal.gif)
 
 ## Acesse o Projeto
 
-[**Clique aqui para acessar o projeto**](LINK_DO_PROJETO)
+[**Clique aqui para acessar o projeto**](https://vai-na-web-jf1g.vercel.app/)
 
 ---
 
