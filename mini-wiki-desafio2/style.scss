@@ -14,7 +14,6 @@ $fonte-principal: 'Exo 2';
 }
 
 body {
-    display: flex;
     font-family: $fonte-principal;
     background-color: $cor-terciaria;
     flex-direction: column;
@@ -43,6 +42,29 @@ img {
             0px 0px 25px rgba(255, 182, 193, 0.4);
     }
 }
+
+
+/*img {
+    width: 45%;
+    max-width: 300px;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    margin: 5% 50% 2% 10%;
+    margin-top: 2rem;
+    box-shadow:
+        0px 0px 10px rgba(255, 182, 193, 0.4),
+        0px 0px 15px rgba(255, 182, 193, 0.3),
+        0px 0px 20px rgba(255, 182, 193, 0.2);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+
+    &:hover {
+        transform: rotate(360deg);
+        box-shadow:
+            0px 0px 15px rgba(255, 182, 193, 0.6),
+            0px 0px 20px rgba(255, 182, 193, 0.5),
+            0px 0px 25px rgba(255, 182, 193, 0.4);
+    }
+}*/
 
 h1 {
     background: linear-gradient(to right, $cor-primaria, #FF6EC7);
@@ -78,7 +100,7 @@ h1 {
     margin-bottom: 39px;
 }
 
-.city-explorer {
+a {
     line-height: 29px;
     width: 1216px;
     height: 66px;
@@ -90,19 +112,17 @@ h1 {
     margin-left: 119px;
     margin-top: 8px;
     margin-bottom: 8px;
+    color: $cor-secundaria;
 
-    a {
-        color: $cor-secundaria;
-
-        &:hover {
-            color: rgba(255, 182, 193, 0.8);
-            text-decoration: underline;
-        }
+    &:hover {
+        color: rgba(255, 182, 193, 0.8);
+        text-decoration: underline;
     }
 }
 
-.film-title,
-.music-title {
+
+
+h2 {
     width: 388px;
     height: 50px;
     flex-shrink: 0;
@@ -136,24 +156,24 @@ ul {
     margin-bottom: 50px;
 }
 
+
 footer {
     background-color: $cor-terciaria;
     border-top: 1px solid rgba(255, 182, 193, 0.3);
     padding: 20px 588px;
     margin-top: 50px;
-}
 
-.footer-one,
-.footer-two {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: $cor-secundaria;
-    font-size: 14px;
-    font-weight: 250;
-    line-height: 17px;
-    width: 264px;
-    height: 21px;
-    flex-shrink: 0;
-    font-style: normal;
+    p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $cor-secundaria;
+        font-size: 14px;
+        font-weight: 250;
+        line-height: 17px;
+        width: 264px;
+        height: 21px;
+        flex-shrink: 0;
+        font-style: normal;
+    }
 }

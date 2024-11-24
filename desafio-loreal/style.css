@@ -26,7 +26,6 @@ header {
 header a.logo {
   margin-right: 5rem;
   display: inline-block;
-  text-decoration: none;
 }
 header a.logo img {
   width: 100%;

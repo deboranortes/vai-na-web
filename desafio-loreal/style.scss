@@ -40,12 +40,11 @@ header {
 
     a.logo {
         margin-right: 5rem;
-        display: inline-block; // Garante que a logo como link seja tratada como bloco
-        text-decoration: none; // Remove qualquer sublinhado do link padrão
+        display: inline-block;
 
         img {
-            width: 100%; // Faz com que a logo responda ao tamanho do contêiner
-            max-width: 200px; // Ajuste o tamanho da logo conforme necessário
+            width: 100%;
+            max-width: 200px;
             height: auto;
         }
 
