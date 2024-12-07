@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #121214;
+}
+
+h1,
+h2 {
+    font-family: "Space Grotesk", sans-serif;
+}
+
+p,
+span,
+input {
+    font-family: "Inter", sans-serif;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    display: none;
+}
