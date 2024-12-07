@@ -17,10 +17,10 @@ O projeto foi configurado com **Vite** para aproveitamento de suas característi
 - **Vue.js:** Framework JavaScript progressivo para construção de interfaces de usuário.
 - **Vite:** Ferramenta de build e bundler extremamente rápida.
 - **Sass:** Pré-processador CSS que facilita a escrita de CSS de maneira eficiente e organizada.
-[![Ver no Figma](https://img.shields.io/badge/Ver%20no%20Figma-0ACF83?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/design/C2mrNhGoSuFAtWf0uMzXEp/Desafios---CodeLab-(Copy)?node-id=0-1&node-type=canvas&t=OxJ56zwcwNk2sruT-0)
+ [![Ver no Figma](https://img.shields.io/badge/Ver%20no%20Figma-0ACF83?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/design/C2mrNhGoSuFAtWf0uMzXEp/Desafios---CodeLab-(Copy)?node-id=0-1&node-type=canvas&t=OxJ56zwcwNk2sruT-0)
 
-## Deploy
-![Acesse o Deploy](https://img.shields.io/badge/Acesse%20o%20Deploy-e07b67?style=for-the-badge&logo=appveyor&logoColor=white)
+## Deploy do Projeto
+[![Blog CodeLab](https://img.shields.io/badge/Blog_CodeLab-%23E07B67?style=for-the-badge)](https://blog-codelab-one.vercel.app/)
 
 
 ## Prévia do Projeto
