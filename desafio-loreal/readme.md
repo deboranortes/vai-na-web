@@ -47,6 +47,34 @@ Acesse Aqui: [![Figma](https://img.shields.io/badge/Figma-E07B67?style=flat-squa
 
 [**Clique aqui para acessar o projeto**](https://vai-na-web-jf1g.vercel.app/)
 
+## Como instalar o Sass
+
+Para configurar o Sass no seu projeto, siga os passos abaixo:
+
+1. Certifique-se de que você tem o Node.js instalado em sua máquina. Caso não tenha, baixe e instale a partir do site oficial: [Node.js](https://nodejs.org).
+
+2. Abra o terminal na raiz do projeto e execute o seguinte comando para instalar o Sass como uma dependência de desenvolvimento:
+
+   ```bash
+   npm install -D sass
+
+3. Após a instalação, você pode compilar seus arquivos .scss para .css.
+
+## Como usar o Watch Sass
+
+1. Certifique-se de que o Sass já está configurado no seu editor de código, como o VS Code. Caso não tenha o plugin **Live Sass Compiler** instalado, instale-o diretamente na aba de extensões.
+
+2. Após instalar o **Live Sass Compiler**, você verá uma opção chamada **"Watch Sass"** na barra inferior do VS Code.
+
+3. Clique em **"Watch Sass"** para iniciar o monitoramento dos arquivos `.scss`.
+
+4. Sempre que você salvar alterações em um arquivo `.scss`, o Live Sass Compiler compilará automaticamente para `.css` e gerará os arquivos diretamente na pasta configurada no projeto.
+
+
+Essa abordagem elimina a necessidade de usar o terminal para iniciar o Sass, tornando o processo mais rápido e simples!
+
+
+
 ---
 
 Agradecimentos especiais à professora **Carol**, cujo apoio e orientação foram fundamentais para chegar até aqui. Sem ela, esse projeto não teria sido possível!
