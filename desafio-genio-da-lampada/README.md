@@ -29,12 +29,6 @@ Acesse Aqui: [![Figma](https://img.shields.io/badge/Figma-E07B67?style=flat-squa
 ## Link para o Deploy
 Acesse a aplicação em produção: [![Deploy](https://img.shields.io/badge/Deploy-Click%20Here-007BFF?style=for-the-badge)](https://vai-na-web-genio-react.vercel.app/)
 
-## Como Executar o Projeto
-Para executar este projeto localmente, siga estas etapas:
-
-1. **Clone o repositório:**
-   ```bash
-   git clone link_do_repositorio
 
 
 ## Como Executar o Projeto

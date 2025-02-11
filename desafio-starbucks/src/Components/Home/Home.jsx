@@ -27,7 +27,7 @@ export default function Home() {
 
   return (
     <MainContainer>
-      <Circle backgroundColor={currentCup.ellipseColor} />
+      <Circle $backgroundColor={currentCup.ellipseColor} />
       <Content>
         <TextBox>
           <h2>Mais que café</h2> 

@@ -12,7 +12,8 @@ export default function Contato() {
         <label htmlFor="email">Email</label>
         <input type="email" id="email" placeholder="Seu email" />
 
-        <textarea placeholder="Sua mensagem"></textarea>
+        <label htmlFor="message">Mensagem</label>
+        <textarea id="message" placeholder="Sua mensagem"></textarea>
 
         <button type="submit">Enviar</button>
       </Form>

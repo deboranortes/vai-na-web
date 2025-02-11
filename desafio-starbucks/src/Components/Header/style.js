@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
   nav {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -11,11 +11,26 @@ export const HeaderContainer = styled.header`
     justify-content: space-between;
     align-items: center;
     background: #FFF;
+    z-index: 1000;
   }
 
   img {
     position: relative;
     max-width: 80px;
+  }
+
+  .menu-icon {
+    display: none;
+    cursor: pointer;
+
+    img {
+      width: 30px;
+      height: 30px;
+    }
+
+    @media (max-width: 768px) {
+      display: block;
+    }
   }
 `;
 
@@ -39,5 +54,20 @@ export const Ul = styled.ul`
     &:hover {
       color: #017143;
     }
+  }
+
+  @media (max-width: 768px) {
+    display: ${({ $isMenuOpen }) => ($isMenuOpen ? "flex" : "none")};
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #FFF;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
 `;

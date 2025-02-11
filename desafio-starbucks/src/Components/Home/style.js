@@ -16,7 +16,7 @@ export const Circle = styled.div`
   left: 0;
   width: 100%;
   height: 100%;
-  background: ${(props) => props.backgroundColor || "#037143"};
+  background: ${(props) => props.$backgroundColor || "#037143"};
   clip-path: circle(600px at right 700px);
   transition: background 0.3s ease;
 `;
