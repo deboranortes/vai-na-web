@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const HeaderContainer = styled.header`
   nav {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
@@ -11,7 +11,6 @@ export const HeaderContainer = styled.header`
     justify-content: space-between;
     align-items: center;
     background: #FFF;
-    z-index: 1000;
   }
 
   img {
